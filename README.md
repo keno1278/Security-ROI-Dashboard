@@ -99,12 +99,7 @@ MoM_Savings_% =
     DIVIDE([Total_Savings] - [Prev_Month_Savings], [Prev_Month_Savings])
 
 ---
-
----
-
----
-
-## 🗂️ Repository Structure
+ 🗂️ Repository Structure
 
 Security-ROI-Dashboard/
 │── Security-ROI-Dashboard.pbix # Power BI file
@@ -116,12 +111,12 @@ Security-ROI-Dashboard/
 
 ---
 
-## 🍀 Key Takeaway  
+ 🍀 Key Takeaway  
 > A real-world **data solution** built from an on-the-job problem — transforming raw incident logs into an **insightful business intelligence dashboard** that quantifies security impact and ROI.
 
 ---
 
-## 👤 Author  
+ 👤 Author  
 **Meshack Oniera**  
 📊 *Data Analyst | Power BI | SQL | Excel | Python*  
 
