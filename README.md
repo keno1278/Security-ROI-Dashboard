@@ -74,10 +74,9 @@ This dashboard converts operational data into a clear ROI story for clients:
 
   ---
 
----
 
 <details>
-<summary>🧮 <b>DAX Highlights</b> (click to expand)</summary>
+<summary>📊 <b>DAX Highlights</b> (click to expand)</summary>
 
 Key DAX measures powering the ROI dashboard:
 
@@ -97,9 +96,9 @@ Prev_Month_Savings =
     CALCULATE([Total_Savings], PREVIOUSMONTH('Date'[Date]))
 MoM_Savings_% =
     DIVIDE([Total_Savings] - [Prev_Month_Savings], [Prev_Month_Savings])
+</details>
 
----
- 🗂️ Repository Structure
+## 🗂️ Repository Structure
 
 Security-ROI-Dashboard/
 │── Security-ROI-Dashboard.pbix # Power BI file
@@ -109,14 +108,15 @@ Security-ROI-Dashboard/
 │── README.md
 ---
 
- 🍀 Key Takeaway  
-> A real-world **data solution** built from an on-the-job problem — transforming raw incident logs into an insightful business intelligence dashboard** that quantifies security impact and ROI.
+## 🍀 Key Takeaway  
+> A real-world **data solution** built from an on-the-job problem — transforming raw incident logs into an **insightful business intelligence dashboard** that quantifies security impact and ROI.
 
 ---
 
- 👤 Author  
+## 👤 Author  
 **Meshack Oniera**  
 📊 *Data Analyst | Power BI | SQL | Excel | Python*  
 
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/meshackoniera)  
 📁 Part of the [Exera Analytics Portfolio](https://github.com/keno1278)
+
