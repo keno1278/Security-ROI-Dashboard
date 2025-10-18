@@ -78,9 +78,7 @@ This dashboard converts operational data into a clear ROI story for clients:
 <details>
 <summary>📊 <b>DAX Highlights</b> (click to expand)</summary>
 
-Key DAX measures powering the ROI dashboard:
-
-```DAX
+```dax
 -- Total shifts worked
 Total_Shifts = COUNTROWS(Shifts)
 
@@ -94,29 +92,30 @@ Cancel_Rate = DIVIDE([Total_Cancellations], [Total_Shifts])
 -- Month-over-Month comparison
 Prev_Month_Savings =
     CALCULATE([Total_Savings], PREVIOUSMONTH('Date'[Date]))
+
 MoM_Savings_% =
     DIVIDE([Total_Savings] - [Prev_Month_Savings], [Prev_Month_Savings])
 </details>
 
-## 🗂️ Repository Structure
+<details>
+<summary>🗂️ <b>Repository Structure</b> (click to expand)</summary>
 
 Security-ROI-Dashboard/
-│── Security-ROI-Dashboard.pbix # Power BI file
-│── Page1_Overview.png     # Executive ROI page screenshot
-│── Page2_Cancellations.png  # Shift analysis page screenshot
-│── LICENSE
-│── README.md
----
+├─ Security-ROI-Dashboard.pbix          # Power BI file
+├─ Page1_Overview.png                    # Executive ROI page screenshot
+├─ Page2_Cancellations.png               # Shift analysis page screenshot
+├─ LICENSE
+└─ README.md
 
-## 🍀 Key Takeaway  
-> A real-world **data solution** built from an on-the-job problem — transforming raw incident logs into an **insightful business intelligence dashboard** that quantifies security impact and ROI.
+</details>
 
----
+✅ Key Takeaway
 
-## 👤 Author  
-**Meshack Oniera**  
-📊 *Data Analyst | Power BI | SQL | Excel | Python*  
+A real-world data solution built from an on-the-job problem — transforming raw incident logs into an insightful business story that quantifies ROI and explains cancellations.
 
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/meshackoniera)  
-📁 Part of the [Exera Analytics Portfolio](https://github.com/keno1278)
+👤 Author
 
+Meshack Oniera
+📊 Data Analyst | Power BI | SQL | Excel | Python
+🔗 LinkedIn Profile
+📁 Part of the Exera Analytics Portfolio
