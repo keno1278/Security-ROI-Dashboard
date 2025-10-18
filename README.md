@@ -74,7 +74,10 @@ This dashboard converts operational data into a clear ROI story for clients:
 
   ---
 
-## 🧮 DAX Highlights  
+---
+
+<details>
+<summary>🧮 <b>DAX Highlights</b> (click to expand)</summary>
 
 Key DAX measures powering the ROI dashboard:
 
@@ -90,8 +93,10 @@ Avg_Savings_Per_Shift = DIVIDE([Total_Savings], [Total_Shifts])
 Cancel_Rate = DIVIDE([Total_Cancellations], [Total_Shifts])
 
 -- Month-over-Month comparison
-Prev_Month_Savings = CALCULATE([Total_Savings], PREVIOUSMONTH('Date'[Date]))
-MoM_Savings_% = DIVIDE([Total_Savings] - [Prev_Month_Savings], [Prev_Month_Savings])
+Prev_Month_Savings =
+    CALCULATE([Total_Savings], PREVIOUSMONTH('Date'[Date]))
+MoM_Savings_% =
+    DIVIDE([Total_Savings] - [Prev_Month_Savings], [Prev_Month_Savings])
 
 ---
 
