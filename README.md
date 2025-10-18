@@ -98,6 +98,10 @@ Prev_Month_Savings =
 MoM_Savings_% =
     DIVIDE([Total_Savings] - [Prev_Month_Savings], [Prev_Month_Savings])
 
+<p align="right">
+  <a href="DAX-Measures.md" target="_blank">📘 View Full DAX File →</a>
+</p>
+
 ---
 
 ## 📁 Repository Structure
