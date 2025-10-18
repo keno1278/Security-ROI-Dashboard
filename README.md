@@ -100,24 +100,27 @@ MoM_Savings_% =
 
 ---
 
-## 📁 Repository Structure
+---
+
+## 🧱 Repository Structure
 
 Security-ROI-Dashboard/
-├── Security-ROI-Dashboard.pbix      # Power BI file
-├── Page1_Overview.png                # Executive ROI page screenshot
-├── Page2_Cancellations.png           # Shift analysis page screenshot
-├── LICENSE
-└── README.md
+│── Security-ROI-Dashboard.pbix # Power BI file
+│── Page1_Overview.png     # Executive ROI page screenshot
+│── Page2_Cancellations.png  # Shift analysis page screenshot
+│── LICENSE
+│── README.md
+---
+---
+
+## 🧩 Key Takeaway  
+> A real-world **data solution** built from an on-the-job problem — transforming raw incident logs into an **insightful business intelligence dashboard** that quantifies security impact and ROI.
 
 ---
 
-## 📌 Key Takeaways
-> A real-world data solution built from an on-the-job problem — transforming raw incident logs into insightful business metrics that highlight security ROI and guard performance for decision-makers.
-
----
-
-### 👤 Author
+## 👤 Author  
 **Meshack Oniera**  
-📊 Data Analyst | Power BI | SQL | Excel | Python  
+📊 *Data Analyst | Power BI | SQL | Excel | Python*  
+
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/meshackoniera)  
 📁 Part of the [Exera Analytics Portfolio](https://github.com/keno1278)
