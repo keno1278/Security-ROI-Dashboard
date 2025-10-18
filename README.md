@@ -102,7 +102,9 @@ MoM_Savings_% =
 
 ---
 
-## 🧱 Repository Structure
+---
+
+## 🗂️ Repository Structure
 
 Security-ROI-Dashboard/
 │── Security-ROI-Dashboard.pbix # Power BI file
@@ -111,9 +113,10 @@ Security-ROI-Dashboard/
 │── LICENSE
 │── README.md
 ---
+
 ---
 
-## 🧩 Key Takeaway  
+## 🍀 Key Takeaway  
 > A real-world **data solution** built from an on-the-job problem — transforming raw incident logs into an **insightful business intelligence dashboard** that quantifies security impact and ROI.
 
 ---
