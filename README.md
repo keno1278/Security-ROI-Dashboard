@@ -70,7 +70,28 @@ This dashboard converts operational data into a clear ROI story for clients:
 - **Power BI**        – Data modeling, DAX KPIs, visual design.  
 - **Excel / CSV**   – Base data cleaning and import.  
 - **DAX Formulas**  – Calculated columns for savings, efficiency, and variance.  
-- **Project Management Insight** – Root-cause analysis (“5 Whys”) applied to shift cancellations.  
+- **Project Management Insight** – Root-cause analysis (“5 Whys”) applied to shift cancellations.
+
+  ---
+
+## 🧮 DAX Highlights  
+
+Key DAX measures powering the ROI dashboard:
+
+```DAX
+-- Total shifts worked
+Total_Shifts = COUNTROWS(Shifts)
+
+-- Total savings ($)
+Total_Savings = SUM(Shifts[Estimated_Savings_$])
+
+-- Efficiency metrics
+Avg_Savings_Per_Shift = DIVIDE([Total_Savings], [Total_Shifts])
+Cancel_Rate = DIVIDE([Total_Cancellations], [Total_Shifts])
+
+-- Month-over-Month comparison
+Prev_Month_Savings = CALCULATE([Total_Savings], PREVIOUSMONTH('Date'[Date]))
+MoM_Savings_% = DIVIDE([Total_Savings] - [Prev_Month_Savings], [Prev_Month_Savings])
 
 ---
 
