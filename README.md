@@ -109,10 +109,8 @@ Security-ROI-Dashboard/
 │── README.md
 ---
 
----
-
  🍀 Key Takeaway  
-> A real-world **data solution** built from an on-the-job problem — transforming raw incident logs into an **insightful business intelligence dashboard** that quantifies security impact and ROI.
+> A real-world **data solution** built from an on-the-job problem — transforming raw incident logs into an insightful business intelligence dashboard** that quantifies security impact and ROI.
 
 ---
 
